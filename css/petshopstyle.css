@@ -1,0 +1,191 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-image: url(../img/fundo-topo.jpg);
+    text-align: center;
+    padding: 10px 0;
+
+}
+
+header h1 {
+    margin: 0;
+    height: 84px;
+}
+
+nav {
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav li {
+    display: inline;
+    background-image: url(../img/patinha-preta.png);
+    background-repeat: no-repeat;
+    padding-right: 27px;
+    margin-right: 10px;
+    background-position: center right;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+
+}
+
+nav a:hover {
+    color: #6dd432;
+}
+
+.fundo_verde {
+    background-color: #bdff9c;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 56px;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex_container .col {
+    width: 430px;
+}
+
+.produto {
+    width: 235px;
+}
+
+.produto figure {
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+
+.produto figure img {
+    vertical-align: middle;
+}
+
+.texto_centralizado {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.texto_centralizado>h2 {
+    margin-bottom: 10px;
+
+}
+
+.btn_pata {
+    border: 1px solid #91e467;
+    background-color: #d2fbbd;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+#produto .flex_container {
+    margin-top: 43px;
+
+}
+
+.imgservico {
+    display: flex;
+    margin-left: 100px;
+    width: 400px;
+
+}
+
+.col {
+    width: 200px;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.img4 {
+    display: block;
+}
+
+form {
+    width: 380px;
+}
+
+form>input,
+textarea {
+    width: 380px;
+    border: 1px solid #6de432;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+form>label,
+textarea {
+    display: flex;
+}
+
+iframe {
+    width: 100%;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin-bottom: 15px;
+
+}
+
+#produto .flex_container #contato .flex_container {
+    margin-top: 43px;
+}
+
+footer {
+    background-color: #bdff9c;
+    text-align: center;
+
+}
+
+.inst {
+    margin-right: 10px;
+}
+
+@media (max-width: 580px) {
+    * {
+        margin: auto;
+        padding: auto;
+    }
+    .container{
+        width: auto;
+    }
+    .flex_container{
+        flex-direction: column;
+        width: auto;
+        text-align: center;
+        align-items: center;
+    }
+    .col {
+        margin: 1rem;
+    }
+    nav li {
+        display: flex;
+        background-image: url(../img/patinha-preta.png);
+        background-repeat: no-repeat;
+        background-position: 39%;
+    }
+    li{
+        margin-left: 9%;
+    }
+}
